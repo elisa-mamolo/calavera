@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+img {
+	padding-top: 2%;
+	padding-left: 25%;
+	max-width: 45%;
+	min-width: 45%;
+	
+	}
+
+footer {
+     
+     bottom:0px;
+     width:100%;
+     background-color:black;
+     color:#FF6138;
+}
+
+body {
+	background-color:black;
+	/*
+	background-image: url(test2.png);
+	background-repeat:no-repeat;
+    background-size: 100%;
+	*/
+	}
+.footer-text {
+	font-size: 18px;
+	font-family: ingra, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+	text-align: center;
+	color: #FC5500;
+}
+a{
+        font-size: 18px;
+	font-family: ingra, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+	text-align: center;
+	color: #FC5500; 
+}
+@media only screen and (min-width: 650px){
+    margin-bottom: 10px;
+}
+

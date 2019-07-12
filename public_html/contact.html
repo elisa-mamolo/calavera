@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href ="contact.css" rel="stylesheet">
+<title>Contact Us - Calavera web agency</title>
+<meta name="keywords" content="calavera, web agency, contact us, contact, team, email, address, costumer service, 
+      web design, design studio, logo design, social media, print work, web development">
+<meta name="description" content="“Our team is here to help your business needs, 
+      our costumer service is our force, contact us and we will make your dreams come true.">
+  <!--Ingra font from typekit.com-->
+        <script src="https://use.typekit.net/ycx7wwb.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+ 
+</head>
+
+<body>
+<header>
+     <!--HAMBURGER MENU THANKS TO http://codepen.io/brenden/pen/VLjKMQ-->
+<div class="outer-menu">
+  <input class="checkbox-toggle" type="checkbox" />
+  <div class="hamburger">
+    <div></div>
+  </div>
+  <div class="menu">
+    <div>
+      <div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="404.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+        
+	<div class ="logo_secondary">
+		<img src="contact/logo_no_skull.png" alt="Calavera Studio text">
+	</div>
+</header>
+
+<div class ="banner" id="imagebanner">
+    <!--img source https://unsplash.com/search/road-mexico?photo=xWxCLhB1E9E-->
+	<img src="contact/roadinmexico.jpg" alt="road in mexico">
+</div>
+
+<div class ="banner" id ="firstbanner">
+  <div class="parts">
+    <div class = "leftpart">
+      <div id="infotext0">
+        <h2>Together</h2>
+        <br>
+        <p>Our first promise to our clients is that we are with them through the whole process, and after too. We care about our projects, we value our work, and we feel good about helping our clients have a great website, whatever that means for each person.No matter  what the problem is, we've always got your back Amigo.</p>
+      </div>
+      </div>
+    <div class ="rightpart">
+      <img src="contact/maracas.png" alt="maracas colorful drawing">
+      </div>
+  </div>
+</div>
+
+<div class ="banner" id ="secondbanner">
+	<div class ="rightpart">
+      <div id="infotext1">
+          <h2>Let's taco 'bout it!</h2>
+          <br>
+        <p>If you are interested in hearing exactly what we can do for you, drop us a line here. We will make contact with you and talk about all the different services we offer, and how they can be tailored for your needs. If you just want to subscribe to our newsletter, and keep updated with our latest projects and adventures, tick the checkbox at the end.</p>
+      </div>
+	</div>
+	<div class ="leftpart">
+		<div class ="contactform">
+		<!--FORM -->
+		<input name="name" type="text" class="feedback-input" placeholder="Name" />
+		<input name="email" type="text" class="feedback-input" placeholder="Email" />
+		<textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+		<input name ="newsletter" type="checkbox"><span>I want to subsribe to the newsletter</span>
+		<br><br>
+		<input type="submit" value="SUBMIT"/>
+		</div>
+	</div>
+	
+</div>
+        <!--MAP-->
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 55.489557, lng: 9.483953};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVk1I6DtgO_6GbkduSZW8qD-9gldpowWQ&callback=initMap">
+      
+</script>
+<br>
+<!--SOCIAL MEDIA SIDEBAR THANKS TO https://codepen.io/FunkyHead/pen/GjXWLa-->
+        <nav id="social-media-sidebar" class="socialnav1">
+      <ul>
+        <li class="side-social facebook">
+          <i class="fa fa-facebook"><a href=#></a></i>
+        </li>
+        <li class="side-social twitter">
+          <i class="fa fa-twitter"><a href=#></a></i>
+        </li>
+        <li class="side-social youtube">
+          <i class="fa fa-youtube-play"><a href=#></a></i>
+        </li>
+        <li class="side-social instagram">
+          <i class="fa fa-instagram"><a href=#></a></i>
+        </li>
+        <li class="side-social google-plus">
+          <i class="fa fa-google-plus"><a href=#></a></i>
+        </li>
+      </ul>
+    </nav>
+<div class="footer" align="center">
+    <a href="#top"><img src="icons/arrow.png" class="arrow" alt="anchor arrow, press and go to top page"/></a>
+
+<p>
+    Calavera Studio<br>
+Pakhuset lokale 12<br>
+Galvej 13A<br>
+Kolding 6000<br><br>
+
+info@calaverastudio.dk<br>
++4591729918
+</p>
+</div>
+</body>
+</html>
